@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7262A94-537F-7F1A-EE21-F65F26C2E1B7" name="Cars">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:57:42 UTC</createdTime>
+<generatorID>57C5D35E-228C-FAF1-911C-76968F258B54</generatorID>
+<ownerDesignName>project.models</ownerDesignName>
+<engineerTo>
+<item key="8756CCCA-2673-1B98-7444-BC61D0C40679" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KodTaxi" id="6090A84B-C61B-547C-7269-F2CFDA028F84">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:57:42 UTC</createdTime>
+<generatorID>4327239D-BA8A-51D9-F43F-AE3158E73718</generatorID>
+<ownerDesignName>project.models</ownerDesignName>
+<engineerTo>
+<item key="8756CCCA-2673-1B98-7444-BC61D0C40679" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RegNomer" id="09A8F207-ADE2-C87D-85D5-BE54A45B1749">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:57:42 UTC</createdTime>
+<generatorID>93EEE25A-FAC6-A8DE-E6CB-65ADE33512CD</generatorID>
+<ownerDesignName>project.models</ownerDesignName>
+<engineerTo>
+<item key="8756CCCA-2673-1B98-7444-BC61D0C40679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mark" id="4FA462B4-9657-822C-DA66-C6E862E6BFF2">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:57:42 UTC</createdTime>
+<generatorID>181D89AE-7794-361C-8DE6-88646602A186</generatorID>
+<ownerDesignName>project.models</ownerDesignName>
+<engineerTo>
+<item key="8756CCCA-2673-1B98-7444-BC61D0C40679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Seats" id="02304545-AACB-E82E-4BF7-65B90D04DCAB">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:57:42 UTC</createdTime>
+<generatorID>3DF73DA6-917A-16C3-4779-5462649AAB78</generatorID>
+<ownerDesignName>project.models</ownerDesignName>
+<engineerTo>
+<item key="8756CCCA-2673-1B98-7444-BC61D0C40679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Luggage" id="8AAB98C9-FEC4-5DCF-4F96-127C0C573BDD">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:57:42 UTC</createdTime>
+<generatorID>F3CD2D9E-D931-351F-61DC-BB532822228D</generatorID>
+<ownerDesignName>project.models</ownerDesignName>
+<engineerTo>
+<item key="8756CCCA-2673-1B98-7444-BC61D0C40679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Driver" id="DC228213-163F-52EF-53E1-4E62349C884A">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:57:42 UTC</createdTime>
+<generatorID>D19A24D6-E1DD-BD77-7598-94CF56592775</generatorID>
+<ownerDesignName>project.models</ownerDesignName>
+<engineerTo>
+<item key="8756CCCA-2673-1B98-7444-BC61D0C40679" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="415F3A44-E57C-2965-48AA-B8E03C571391" name="Cars PK">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:57:42 UTC</createdTime>
+<generatorID>267E0FD3-8748-DEA5-611B-3A3A420CB5C5</generatorID>
+<ownerDesignName>project.models</ownerDesignName>
+<engineerTo>
+<item key="8756CCCA-2673-1B98-7444-BC61D0C40679" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6090A84B-C61B-547C-7269-F2CFDA028F84</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

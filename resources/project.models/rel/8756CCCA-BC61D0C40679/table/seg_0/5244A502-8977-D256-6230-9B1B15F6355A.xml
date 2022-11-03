@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5244A502-8977-D256-6230-9B1B15F6355A" name="Orders">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:48:07 UTC</createdTime>
+<ownerDesignName>project.models</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NumOrd" id="E1E7D8BF-6EDB-F7B5-937A-E5A3742A5D46">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:49:57 UTC</createdTime>
+<ownerDesignName>project.models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KodTaxi" id="F8674A6D-C653-2BEA-688D-65F9E90F0F5B">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:49:57 UTC</createdTime>
+<ownerDesignName>project.models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10075A38-3AF2-4285-478D-6A96BCC3B304" referredColumn="4327239D-BA8A-51D9-F43F-AE3158E73718"/>
+</associations>
+</Column>
+<Column name="Addres" id="15AF9766-1E55-5413-FC1F-F8711C2C2407">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:49:57 UTC</createdTime>
+<ownerDesignName>project.models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrdTime" id="03A885C4-8A4F-B980-CB86-370AA5683571">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:49:57 UTC</createdTime>
+<ownerDesignName>project.models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Distance" id="9AADA933-1392-9C16-1654-F9614CD63709">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:51:53 UTC</createdTime>
+<ownerDesignName>project.models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fare" id="C6A33392-6596-E34F-AA5C-AB98D1220940">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:51:53 UTC</createdTime>
+<ownerDesignName>project.models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33A8911B-B7FE-393C-D25C-2FCAD7BF9329" name="Orders_PK">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:49:57 UTC</createdTime>
+<ownerDesignName>project.models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1E7D8BF-6EDB-F7B5-937A-E5A3742A5D46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="958B3DA0-FAAA-1EF2-38A1-D522A0DF6345" name="Orders_Cars_FK">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:56:42 UTC</createdTime>
+<ownerDesignName>project.models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8674A6D-C653-2BEA-688D-65F9E90F0F5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Orders_Cars_FK" directorySegmentName="seg_0" id="C29EB386-147D-94EF-A48A-F11EC112AC8B">
+<createdBy>yorda</createdBy>
+<createdTime>2022-11-03 09:57:42 UTC</createdTime>
+<generatorID>10075A38-3AF2-4285-478D-6A96BCC3B304</generatorID>
+<ownerDesignName>project.models</ownerDesignName>
+<engineerTo>
+<item key="8756CCCA-2673-1B98-7444-BC61D0C40679" value="true"/>
+</engineerTo>
+<sourcePk>415F3A44-E57C-2965-48AA-B8E03C571391</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7262A94-537F-7F1A-EE21-F65F26C2E1B7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>152286BA-22FD-E94E-7C4F-9AD4513F1189</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
