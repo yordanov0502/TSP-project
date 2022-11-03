@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\yorda\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\yorda\\.nuget\\packages"
+    ]
+  }
+}
